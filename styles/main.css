@@ -32,6 +32,25 @@ header {
 .country-name-japan h2 {
   font-size: xx-large;
 }
+
+.country-name-germany {
+  background-image: url(/images/Germany\ Panorama.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 100px;
+  margin-top: 0px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.country-name-germany h2 {
+  color: white;
+  text-shadow: .1em .1em black;
+}
+
 .country-name-denmark{
     background-image: url(/images/denmark.jpg);
     background-position: center;
@@ -56,6 +75,10 @@ footer{
 .logo {
   margin-right: 1.5em;
   margin-left: .5em;
+  max-width: 12%;
+  height: auto;
+  padding-top: .5em;
+  padding-bottom: .5em;
 }
 
 .navbar {
