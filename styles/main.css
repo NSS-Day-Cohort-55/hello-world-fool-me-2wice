@@ -41,3 +41,13 @@ footer{
   flex-direction: row;
   align-content: space-between;
 }
+.list-container {
+  display: flex;
+  background: #FDC57B;
+  justify-content: space-evenly;
+}
+.list-container ul {
+  border: solid 3px black;
+  padding: 40px;
+  margin: 20px;
+}
