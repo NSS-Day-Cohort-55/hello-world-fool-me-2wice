@@ -19,11 +19,19 @@ header {
 }
 
 .country-name-japan {
-    background-image: url(/images/japanPic.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    text-align: center;
+  background-image: url(/images/japanPic.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 100px;
+  margin-top: 0px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.country-name-japan h2 {
+  font-size: xx-large;
 }
 footer{
     display:flex;
