@@ -1,7 +1,10 @@
+.list-container{
+    display:flex;
+    flex-direction: row;
+}
 .navbar {
   display: inline;
 }
-
 header {
   background-color: #7FA99B;
   display: flex;
