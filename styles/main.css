@@ -2,8 +2,12 @@
     display:flex;
     flex-direction: row;
 }
-.navbar {
-  display: inline;
+.navbar a{
+  display: flex;
+  margin-right: 1em;
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #394A51;
 }
 header {
   background-color: #7FA99B;
@@ -20,4 +24,20 @@ header {
     background-repeat: no-repeat;
     background-size:cover;
     text-align: center;
+}
+footer{
+    display:flex;
+    justify-content: right;
+    padding: 1em;
+    background-color: #7FA99B;
+}
+.logo {
+  margin-right: 1.5em;
+  margin-left: .5em;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
 }
