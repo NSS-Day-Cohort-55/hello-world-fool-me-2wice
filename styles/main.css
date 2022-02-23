@@ -2,3 +2,14 @@
     display:flex;
     flex-direction: row;
 }
+.navbar {
+  display: inline;
+}
+header {
+  background-color: #7FA99B;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
