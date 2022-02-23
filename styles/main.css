@@ -38,8 +38,13 @@ header {
   background-image: url(/images/japanPic.webp);
   background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   text-align: center;
+  height: 100px;
+  margin-top: 0px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 footer{
