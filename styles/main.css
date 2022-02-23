@@ -13,3 +13,9 @@ header {
   justify-content: flex-start;
   align-items: center;
 }
+footer{
+    display:flex;
+    justify-content: right;
+    padding: 1em;
+    background-color: #7FA99B;
+}
