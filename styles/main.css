@@ -13,3 +13,11 @@ header {
   justify-content: flex-start;
   align-items: center;
 }
+
+.country-name-japan {
+    background-image: url(/images/japanPic.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
