@@ -17,7 +17,6 @@ header {
   justify-content: flex-start;
   align-items: center;
 }
-
 .country-name-japan {
   background-image: url(/images/japanPic.webp);
   background-position: center;
@@ -52,6 +51,21 @@ header {
   text-shadow: .1em .1em black;
 }
 
+.country-name-denmark{
+    background-image: url(/images/denmark.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 100px;
+    margin-top: 0px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.country-name-denmark h2{
+    font-size: xx-large;
+}
 footer{
     display:flex;
     justify-content: right;
@@ -71,4 +85,14 @@ footer{
   display: flex;
   flex-direction: row;
   align-content: space-between;
+}
+.list-container {
+  display: flex;
+  background: #FDC57B;
+  justify-content: space-evenly;
+}
+.list-container ul {
+  border: solid 3px black;
+  padding: 40px;
+  margin: 20px;
 }
