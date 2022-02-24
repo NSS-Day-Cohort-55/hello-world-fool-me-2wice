@@ -30,9 +30,6 @@ header {
   align-content: center;
   justify-content: center;
 }
-.country-name-japan h2 {
-  font-size: xx-large;
-}
 .country-name-japan {
   background-image: url(/images/japanPic.webp);
   background-position: center;
@@ -125,9 +122,10 @@ footer{
   justify-content: space-evenly;
 }
 .cities-list, .landmarks-list, .citizens-list{
-  border: solid 3px black;
+  border: solid 3px #394A51;
   padding: 40px;
   margin: 20px;
+  background: #FBF2D5;
 }
 
 body {
