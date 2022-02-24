@@ -19,8 +19,8 @@ header {
   border: .5em solid;
   border-color: #394A51;
 }
-.country-name-japan {
-  background-image: url(/images/japanPic.webp);
+.country-name-china {
+  background-image: url(/images/chinaPic.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,6 +33,24 @@ header {
 }
 .country-name-japan h2 {
   font-size: xx-large;
+}
+.country-name-japan {
+  background-image: url(/images/japanPic.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 100px;
+  margin-top: 0px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 1em;
+}
+.country-name-japan h2 {
+  font-size: xxx-large;
+  font-family: "Montserrat";
+  letter-spacing: 1em;
 }
 
 .country-name-germany {
