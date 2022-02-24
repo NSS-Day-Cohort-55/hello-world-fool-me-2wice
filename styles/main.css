@@ -16,6 +16,8 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  border: .5em solid;
+  border-color: #394A51;
 }
 .country-name-japan {
   background-image: url(/images/japanPic.webp);
