@@ -9,7 +9,7 @@
   color: #394A51;
   padding: 3.5em 2em;
 }
-header {
+header{
   background-color: #7FA99B;
   display: flex;
   flex-direction: row;
@@ -51,7 +51,6 @@ header {
   font-family: "Montserrat";
   letter-spacing: 1em;
 }
-
 .country-name-germany {
   background-image: url(/images/Germany\ Panorama.jpg);
   background-position: center;
@@ -64,12 +63,10 @@ header {
   align-content: center;
   justify-content: center;
 }
-
 .country-name-germany h2 {
   color: white;
   text-shadow: .1em .1em black;
 }
-
 .country-name-denmark{
     background-image: url(/images/denmark.jpg);
     background-position: center;
@@ -81,9 +78,12 @@ header {
     display: flex;
     align-content: center;
     justify-content: center;
+
 }
 .country-name-denmark h2{
-    font-size: xx-large;
+  font-size: xxx-large;
+  font-family: "Montserrat";
+  letter-spacing: 1em;
 }
 footer{
     display:flex;
@@ -122,10 +122,17 @@ footer{
   background: #FDC57B;
   justify-content: space-evenly;
 }
+.list-container section{
+  width: 30%;
+}
 .cities-list, .landmarks-list, .citizens-list{
   border: solid 3px black;
   padding: 40px;
   margin: 20px;
+}
+.list-container h2{
+  text-align: center;
+  background-color: #FDC57B;
 }
 
 body {
