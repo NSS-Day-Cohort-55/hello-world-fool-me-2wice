@@ -12,7 +12,6 @@
 header{
   background-color: #7FA99B;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
@@ -94,8 +93,8 @@ footer{
 }
 
 .logo {
-  margin-right: 3em;
-  margin-left: .5em;
+  margin-right: 2.3em;
+  margin-left: 2em;
   max-width: 12%;
   height: auto;
   padding-top: .5em;
@@ -135,3 +134,13 @@ footer{
   text-align: center;
   background-color: #FDC57B;
 }
+
+body {
+  margin: 0;
+}
+/* .list-container ul {
+  border: solid 3px black;
+  padding: 40px;
+  margin: 20px;
+
+} */
