@@ -106,9 +106,52 @@ footer{
   align-content: space-between;
 }
 
-.navbar a:hover{
-  background-color: #394A51;
+/* .navbar a:hover{
+  background-image:url(/images/japanFlag.jpg); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color:#FBF2D5;
+} */
+
+.chinaFlag:hover {
+  background-image:url(/images/chinaFlag.png); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+}
+
+.denmarkFlag:hover {
+  background-image:url(/images/denmarkFlag.png); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:black;
+}
+
+.germanyFlag:hover {
+  background-image:url(/images/germanyFlag.png); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.japanFlag:hover {
+  background-image:url(/images/japanFlag.jpg); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+.spainFlag:hover {
+  background-image:url(/images/spainFlag.png); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:black;
 }
 
 #currentNav {
