@@ -9,7 +9,7 @@
   color: #394A51;
   padding: 3.5em 2em;
 }
-header {
+header{
   background-color: #7FA99B;
   display: flex;
   flex-wrap: wrap;
@@ -34,7 +34,6 @@ header {
 .country-name-japan h2 {
   font-size: xx-large;
 }
-
 .country-name-germany {
   background-image: url(/images/Germany\ Panorama.jpg);
   background-position: center;
@@ -47,12 +46,10 @@ header {
   align-content: center;
   justify-content: center;
 }
-
 .country-name-germany h2 {
   color: white;
   text-shadow: .1em .1em black;
 }
-
 .country-name-denmark{
     background-image: url(/images/denmark.jpg);
     background-position: center;
@@ -110,6 +107,11 @@ footer{
   padding: 40px;
   margin: 20px;
 }
+.list-container h2{
+  text-align: center;
+  background-color: #FDC57B;
+}
+
 /* .list-container ul {
   border: solid 3px black;
   padding: 40px;
