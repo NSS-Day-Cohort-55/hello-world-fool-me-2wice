@@ -37,6 +37,8 @@ header{
   letter-spacing: 1em;
   margin: 0px;
   align-self: center;
+  color: white;
+  text-shadow: 0.03em 0.03em black;
 }
 .country-name-japan {
   background-image: url(/images/japanPic.webp);
@@ -57,6 +59,8 @@ header{
   letter-spacing: 1em;
   margin: 0px;
   align-self: center;
+  color: white;
+  text-shadow: 0.04em 0.05em black;
 }
 .country-name-germany {
   background-image: url(/images/Germany\ Panorama.jpg);
@@ -73,7 +77,7 @@ header{
 }
 .country-name-germany h2 {
   color: white;
-  text-shadow: .1em .1em black;
+  text-shadow: 0.06em 0.06em black;
   font-size: xxx-large;
   font-family: "Montserrat";
   letter-spacing: 1em;
@@ -100,6 +104,8 @@ header{
   letter-spacing: 1em;
   margin: 0px;
   align-self: center;
+  color: white;
+  text-shadow: 0.03em 0.03em black
 }
 footer{
     display:flex;
