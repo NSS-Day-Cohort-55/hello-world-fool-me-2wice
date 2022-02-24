@@ -7,7 +7,7 @@
   font-size: 2em;
   font-weight: bold;
   color: #394A51;
-  padding: 3.5em 2em;
+  padding: 1.6em 2em;
 }
 header{
   background-color: #7FA99B;
@@ -94,7 +94,7 @@ footer{
 .logo {
   margin-right: 2.3em;
   margin-left: 2em;
-  max-width: 12%;
+  max-width: 8%;
   height: auto;
   padding-top: .5em;
   padding-bottom: .5em;
