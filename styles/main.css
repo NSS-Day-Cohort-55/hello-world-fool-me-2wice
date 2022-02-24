@@ -177,6 +177,46 @@ footer{
   color:black;
 }
 
+#currentChina{
+  background-image:url(/images/chinaFlag.png); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+}
+
+#currentDenmark{
+  background-image:url(/images/denmarkFlag.png); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:black;
+}
+
+#currentGermany{
+  background-image:url(/images/germanyFlag.png); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#currentJapan{
+  background-image:url(/images/japanFlag.jpg); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+#currentSpain{
+  background-image:url(/images/spainFlag.png); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:black;
+}
+
 #currentNav {
   color:#FBF2D5;
   background-color: #394A51;
@@ -204,9 +244,12 @@ footer{
 body {
   margin: 0;
 }
-/* .list-container ul {
-  border: solid 3px black;
-  padding: 40px;
-  margin: 20px;
-
-} */
+.country-images{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+}
+.country-images img{
+  width: 50%;
+  border: solid 3px #394A51;
+}
