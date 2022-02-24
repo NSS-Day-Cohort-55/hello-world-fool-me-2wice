@@ -4,10 +4,10 @@
 }
 .navbar a{
   display: flex;
-  margin-right: 1em;
-  font-size: 1.7em;
+  font-size: 2em;
   font-weight: bold;
   color: #394A51;
+  padding: 3.5em 2em;
 }
 header {
   background-color: #7FA99B;
@@ -16,6 +16,8 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  border: .5em solid;
+  border-color: #394A51;
 }
 .country-name-japan {
   background-image: url(/images/japanPic.webp);
@@ -72,8 +74,9 @@ footer{
     padding: 1em;
     background-color: #7FA99B;
 }
+
 .logo {
-  margin-right: 1.5em;
+  margin-right: 3em;
   margin-left: .5em;
   max-width: 12%;
   height: auto;
@@ -86,6 +89,17 @@ footer{
   flex-direction: row;
   align-content: space-between;
 }
+
+.navbar a:hover{
+  background-color: #394A51;
+  color:#FBF2D5;
+}
+
+#currentNav {
+  color:#FBF2D5;
+  background-color: #394A51;
+}
+
 .list-container {
   display: flex;
   background: #FDC57B;
