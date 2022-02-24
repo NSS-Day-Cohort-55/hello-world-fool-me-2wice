@@ -245,9 +245,12 @@ footer{
 body {
   margin: 0;
 }
-/* .list-container ul {
-  border: solid 3px black;
-  padding: 40px;
-  margin: 20px;
-
-} */
+.country-images{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+}
+.country-images img{
+  width: 50%;
+  border: solid 3px #394A51;
+}
