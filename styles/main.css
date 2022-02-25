@@ -20,7 +20,7 @@ header{
   align-items: center;
 }
 .country-name-china {
-  background-image: url(/images/chinaPic.jpg);
+  background-image: url(/images/chinaBackground.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -247,6 +247,20 @@ footer{
   background: #FDC57B;
   justify-content: space-evenly;
 }
+.list-container-japan {
+  display: flex;
+  background: #e52335;
+  justify-content: space-evenly;
+}
+.list-container-japan section {
+  width: 30%;
+}
+.list-container-japan h2 {
+  text-align: center;
+  background-color: rgba(183, 210, 187, 0.8);
+  border-radius: 25px;
+  font-family: "Montserrat";
+}
 .list-container section{
   width: 30%;
 }
@@ -258,7 +272,13 @@ footer{
 }
 .list-container h2{
   text-align: center;
-  background-color: #FDC57B;
+  background-color: rgba(127,169,155, 0.5);
+  border-radius: 25px;
+  font-family: "Montserrat";
+}
+
+h3 {
+  font-family: "Montserrat";
 }
 
 body {
@@ -270,6 +290,29 @@ body {
   flex-wrap:nowrap;
 }
 .country-images img{
+  width: 50%;
+  border: solid 3px #394A51;
+}
+#denmark-list-container{
+  background-color: #8f6b56;
+}
+#denmark-list-container h2{
+  text-align: center;
+  background-color: #77b3d7;
+}
+#denmark-cities-list, #denmark-landmarks-list, #denmark-citizens-list {
+  background-color: #ddb356;
+  border: solid 3px #77b3d7;
+}
+#denmark-footer{
+  background-color: #e59446;
+}
+.bottomChina-images{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+}
+.bottomChina-images img{
   width: 50%;
   border: solid 3px #394A51;
 }
