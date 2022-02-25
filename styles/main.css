@@ -6,11 +6,18 @@
   display: flex;
   font-size: 2em;
   font-weight: bold;
-  color: #394A51;
-  padding: 1.6em 2em;
+  color: white;
+  text-shadow: 0.06em 0.06em black;
+  padding: 2.1em 2.5em;
+  margin: 0 .5em;
+  transition: transform 1s;
 }
+
 header{
-  background-color: #FBF2D5;
+  background-image:url(/images/cloudBackgroud.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -103,8 +110,9 @@ header{
   margin: 0px;
   align-self: center;
   color: white;
-  text-shadow: 0.03em 0.03em black
+  text-shadow: 0.03em 0.03em black;
 }
+
 footer{
     display:flex;
     justify-content: right;
@@ -125,94 +133,112 @@ footer{
   display: flex;
   flex-direction: row;
   align-content: space-between;
+  transition: transform 1s;
 }
 
-/* .navbar a:hover{
-  background-image:url(/images/japanFlag.jpg); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color:#FBF2D5;
-} */
-
 .chinaFlag:hover {
-  background-image:url(/images/chinaFlag.png); 
+  transform: translate(5%);
+  background-image:url(/images/waveChina.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color:white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
 }
 
 .denmarkFlag:hover {
-  background-image:url(/images/denmarkFlag.png); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color:black;
-}
-
-.germanyFlag:hover {
-  background-image:url(/images/germanyFlag.png); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-}
-
-.japanFlag:hover {
-  background-image:url(/images/japanFlag.jpg); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: black;
-}
-
-.spainFlag:hover {
-  background-image:url(/images/spainFlag.png); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color:black;
-}
-
-#currentChina{
-  background-image:url(/images/chinaFlag.png); 
+  transform: translate(5%);
+  background-image:url(/images/waveDenmark.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color:white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
 }
 
-#currentDenmark{
-  background-image:url(/images/denmarkFlag.png); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color:black;
-}
-
-#currentGermany{
-  background-image:url(/images/germanyFlag.png); 
+.germanyFlag:hover {
+  transform: translate(5%);
+  background-image:url(/images/waveGermany.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
+}
+
+.japanFlag:hover {
+  transform: translate(5%);
+  background-image:url(/images/waveJapan.gif); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
+}
+
+.spainFlag:hover {
+  transform: translate(5%);
+  background-image:url(/images/waveSpain.gif); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
+}
+
+#currentChina{
+  background-image:url(/images/waveChina.gif); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
+}
+
+#currentDenmark{
+  background-image:url(/images/waveDenmark.gif); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
+}
+
+#currentGermany{
+  background-image:url(/images/waveGermany.gif); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
 }
 
 #currentJapan{
-  background-image:url(/images/japanFlag.jpg); 
+  background-image:url(/images/waveJapan.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: black;
+  color: white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
 }
 
 #currentSpain{
-  background-image:url(/images/spainFlag.png); 
+  background-image:url(/images/waveSpain.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color:black;
+  color:white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
 }
 
 #currentNav {
