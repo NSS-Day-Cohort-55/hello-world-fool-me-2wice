@@ -320,3 +320,40 @@ body {
   width: 50%;
   border: solid 3px #394A51;
 }
+footer{
+  display:flex;
+  flex-direction: column;
+  padding: 1em;
+  background-color: #7FA99B;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  
+}
+.primary-footer-container{
+  display:flex;
+  justify-content: space-between;
+}
+.secondary-footer-container{
+    border-top: 1px solid black;
+    margin: 3em;
+    display:flex;
+    justify-content: space-between;
+}
+footer article{
+  width: 30%;
+  margin: -2em 2em;
+}
+#quick-links{
+
+}
+.footer-links{
+  display:flex;
+}
+.link-list{
+  list-style: none;
+}
+footer img{
+  height: 3em;
+  margin: 1em;
+}
