@@ -271,6 +271,20 @@ body {
   width: 50%;
   border: solid 3px #394A51;
 }
+#denmark-list-container{
+  background-color: #8f6b56;
+}
+#denmark-list-container h2{
+  text-align: center;
+  background-color: #77b3d7;
+}
+#denmark-cities-list, #denmark-landmarks-list, #denmark-citizens-list {
+  background-color: #ddb356;
+  border: solid 3px #77b3d7;
+}
+#denmark-footer{
+  background-color: #e59446;
+}
 .bottomChina-images{
   display:flex;
   flex-direction: row;
