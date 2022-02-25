@@ -105,13 +105,6 @@ header{
   color: white;
   text-shadow: 0.03em 0.03em black
 }
-footer{
-    display:flex;
-    justify-content: right;
-    padding: 1em;
-    background-color: #7FA99B;
-}
-
 .logo {
   margin-right: 2.3em;
   margin-left: 2em;
@@ -293,4 +286,21 @@ body {
 .bottomChina-images img{
   width: 50%;
   border: solid 3px #394A51;
+}
+footer{
+  display:flex;
+  justify-content: space-evenly;
+  padding: 1em;
+  background-color: #7FA99B;
+  
+}
+footer article{
+  width: 30%;
+}
+#quick-links{
+  display:flex;
+  flex-direction: column;
+}
+.footer-links{
+  display:flex;
 }
