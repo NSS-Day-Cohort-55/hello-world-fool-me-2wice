@@ -225,6 +225,20 @@ footer{
   background: #FDC57B;
   justify-content: space-evenly;
 }
+.list-container-japan {
+  display: flex;
+  background: #ea8045;
+  justify-content: space-evenly;
+}
+.list-container-japan section {
+  width: 30%;
+}
+.list-container-japan h2 {
+  text-align: center;
+  background-color: rgba(127,169,155, 0.5);
+  border-radius: 25px;
+  font-family: "Montserrat";
+}
 .list-container section{
   width: 30%;
 }
@@ -236,7 +250,8 @@ footer{
 }
 .list-container h2{
   text-align: center;
-  background-color: #FDC57B;
+  background-color: rgba(127,169,155, 0.5);
+  border-radius: 25px;
   font-family: "Montserrat";
 }
 
