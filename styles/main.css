@@ -17,7 +17,7 @@ header{
   align-items: center;
 }
 .country-name-china {
-  background-image: url(/images/chinaPic.jpg);
+  background-image: url(/images/chinaBackground.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -248,6 +248,15 @@ body {
   flex-wrap:nowrap;
 }
 .country-images img{
+  width: 50%;
+  border: solid 3px #394A51;
+}
+.bottomChina-images{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+}
+.bottomChina-images img{
   width: 50%;
   border: solid 3px #394A51;
 }
