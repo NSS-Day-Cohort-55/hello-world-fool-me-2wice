@@ -6,11 +6,18 @@
   display: flex;
   font-size: 2em;
   font-weight: bold;
-  color: #394A51;
-  padding: 1.6em 2em;
+  color: white;
+  text-shadow: 0.06em 0.06em black;
+  padding: 2.1em 2.5em;
+  margin: 0 .5em;
+  transition: transform 1s;
 }
+
 header{
-  background-color: #FBF2D5;
+  background-image:url(/images/cloudBackgroud.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -28,6 +35,8 @@ header{
   align-content: center;
   justify-content: center;
   padding: 1em;
+  border-top: solid 4px black;
+  border-bottom: solid 4px black;
 }
 .country-name-china h2 {
   font-size: xxx-large;
@@ -50,6 +59,8 @@ header{
   align-content: center;
   justify-content: center;
   padding: 1em;
+  border-top: solid 4px black;
+  border-bottom: solid 4px black;
 }
 .country-name-japan h2 {
   font-size: xxx-large;
@@ -72,6 +83,8 @@ header{
   align-content: center;
   justify-content: center;
   padding: 1em;
+  border-top: solid 4px black;
+  border-bottom: solid 4px black;
 }
 .country-name-germany h2 {
   color: white;
@@ -94,8 +107,10 @@ header{
     align-content: center;
     justify-content: center;
     padding: 1em;
+    border-top: solid 4px black;
+    border-bottom: solid 4px black;
+  }
 
-}
 .country-name-denmark h2{
   font-size: xxx-large;
   font-family: "Montserrat";
@@ -103,8 +118,9 @@ header{
   margin: 0px;
   align-self: center;
   color: white;
-  text-shadow: 0.03em 0.03em black
+  text-shadow: 0.03em 0.03em black;
 }
+
 footer{
     display:flex;
     justify-content: right;
@@ -125,94 +141,112 @@ footer{
   display: flex;
   flex-direction: row;
   align-content: space-between;
+  transition: transform 1s;
 }
 
-/* .navbar a:hover{
-  background-image:url(/images/japanFlag.jpg); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color:#FBF2D5;
-} */
-
 .chinaFlag:hover {
-  background-image:url(/images/chinaFlag.png); 
+  transform: translate(5%);
+  background-image:url(/images/waveChina.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color:white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
 }
 
 .denmarkFlag:hover {
-  background-image:url(/images/denmarkFlag.png); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color:black;
-}
-
-.germanyFlag:hover {
-  background-image:url(/images/germanyFlag.png); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-}
-
-.japanFlag:hover {
-  background-image:url(/images/japanFlag.jpg); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: black;
-}
-
-.spainFlag:hover {
-  background-image:url(/images/spainFlag.png); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color:black;
-}
-
-#currentChina{
-  background-image:url(/images/chinaFlag.png); 
+  transform: translate(5%);
+  background-image:url(/images/waveDenmark.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color:white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
 }
 
-#currentDenmark{
-  background-image:url(/images/denmarkFlag.png); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color:black;
-}
-
-#currentGermany{
-  background-image:url(/images/germanyFlag.png); 
+.germanyFlag:hover {
+  transform: translate(5%);
+  background-image:url(/images/waveGermany.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
+}
+
+.japanFlag:hover {
+  transform: translate(5%);
+  background-image:url(/images/waveJapan.gif); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
+}
+
+.spainFlag:hover {
+  transform: translate(5%);
+  background-image:url(/images/waveSpain.gif); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
+}
+
+#currentChina{
+  background-image:url(/images/waveChina.gif); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
+}
+
+#currentDenmark{
+  background-image:url(/images/waveDenmark.gif); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
+}
+
+#currentGermany{
+  background-image:url(/images/waveGermany.gif); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
 }
 
 #currentJapan{
-  background-image:url(/images/japanFlag.jpg); 
+  background-image:url(/images/waveJapan.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: black;
+  color: white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
 }
 
 #currentSpain{
-  background-image:url(/images/spainFlag.png); 
+  background-image:url(/images/waveSpain.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color:black;
+  color:white;
+  box-shadow:
+1px -1px 35px 6px rgba(30, 30, 60, 0.64);
 }
 
 #currentNav {
@@ -225,6 +259,20 @@ footer{
   background: #FDC57B;
   justify-content: space-evenly;
 }
+.list-container-japan {
+  display: flex;
+  background: #e52335;
+  justify-content: space-evenly;
+}
+.list-container-japan section {
+  width: 30%;
+}
+.list-container-japan h2 {
+  text-align: center;
+  background-color: rgba(183, 210, 187, 0.8);
+  border-radius: 25px;
+  font-family: "Montserrat";
+}
 .list-container section{
   width: 30%;
 }
@@ -234,9 +282,114 @@ footer{
   margin: 20px;
   background: #FBF2D5;
 }
+#japan-cities{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ), url(/images/japan-city.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color:antiquewhite;
+  text-shadow: 0.04em 0.05em black;
+}
+#japan-landmarks{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ), url(/images/see-japan-seawaves.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color:antiquewhite;
+  text-shadow: 0.04em 0.05em black;
+}
+#japan-people{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  ), url(/images/japan-cherry.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color:antiquewhite;
+  text-shadow: 0.04em 0.05em black;
+}
+#germany-cities{
+  background-image:  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(/images/germanStreet.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
+#germany-landmarks{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(/images/germanyCologne.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
+#germany-people{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(/images/germanyPeople.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
+#china-cities{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  ), url(/images/chinaCity.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
+#china-landmarks{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(/images/chinaLandmark.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
+#china-people{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(/images/chinaPeople.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
 .list-container h2{
   text-align: center;
-  background-color: #FDC57B;
+  background-color: rgba(127,169,155, 0.5);
+  border-radius: 25px;
+  font-family: "Montserrat";
+}
+
+h3 {
+  font-family: "Montserrat";
 }
 
 body {
@@ -251,6 +404,52 @@ body {
   width: 50%;
   border: solid 3px #394A51;
 }
+#denmark-list-container{
+  background-color: #8f6b56;
+}
+#denmark-list-container h2{
+  text-align: center;
+  background-color: #77b3d7;
+}
+#denmark-cities-list{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(/images/denmark-copenhagen.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
+#denmark-landmarks-list{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(/images/denmarkLandmarks.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
+#denmark-citizens-list{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(/images/denmarkPeople.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
+#denmark-footer{
+  background-color: #e59446;
+}
+#japan-footer{
+  background-color: #e6ab37;
+}
 .bottomChina-images{
   display:flex;
   flex-direction: row;
@@ -263,9 +462,40 @@ body {
 #china-list-container {
   background-color:#507d87;
 }
-#china-list-container .cities-list, .landmarks-list, .citizens-list{
-  border: solid 3px #394A51;
-  padding: 40px;
-  margin: 20px;
-  background: #FBF2D5;
+footer{
+  display:flex;
+  flex-direction: column;
+  padding: 1em;
+  background-color: #7FA99B;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  
+}
+.primary-footer-container{
+  display:flex;
+  justify-content: space-between;
+}
+.secondary-footer-container{
+    border-top: 1px solid black;
+    margin: 3em;
+    display:flex;
+    justify-content: space-between;
+}
+footer article{
+  width: 30%;
+  margin: -2em 2em;
+}
+#quick-links{
+
+}
+.footer-links{
+  display:flex;
+}
+.link-list{
+  list-style: none;
+}
+footer img{
+  height: 3em;
+  margin: 1em;
 }
