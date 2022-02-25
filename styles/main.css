@@ -260,3 +260,12 @@ body {
   width: 50%;
   border: solid 3px #394A51;
 }
+#china-list-container {
+  background-color:#507d87;
+}
+#china-list-container .cities-list, .landmarks-list, .citizens-list{
+  border: solid 3px #394A51;
+  padding: 40px;
+  margin: 20px;
+  background: #FBF2D5;
+}
