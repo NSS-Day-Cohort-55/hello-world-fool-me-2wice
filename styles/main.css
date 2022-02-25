@@ -248,6 +248,28 @@ footer{
   margin: 20px;
   background: #FBF2D5;
 }
+#japan-cities{
+  background-image: url(/images/japan-city.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color:antiquewhite;
+  text-shadow: 0.04em 0.05em black;
+}
+#japan-landmarks{
+  background-image: url(/images/see-japan-seawaves.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+
+}
+#japan-people{
+  background-image: url(/images/japan-cherry.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+
+}
 .list-container h2{
   text-align: center;
   background-color: rgba(127,169,155, 0.5);
