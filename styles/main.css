@@ -35,6 +35,8 @@ header{
   align-content: center;
   justify-content: center;
   padding: 1em;
+  border-top: solid 4px black;
+  border-bottom: solid 4px black;
 }
 .country-name-china h2 {
   font-size: xxx-large;
@@ -57,6 +59,8 @@ header{
   align-content: center;
   justify-content: center;
   padding: 1em;
+  border-top: solid 4px black;
+  border-bottom: solid 4px black;
 }
 .country-name-japan h2 {
   font-size: xxx-large;
@@ -79,6 +83,8 @@ header{
   align-content: center;
   justify-content: center;
   padding: 1em;
+  border-top: solid 4px black;
+  border-bottom: solid 4px black;
 }
 .country-name-germany h2 {
   color: white;
@@ -101,8 +107,10 @@ header{
     align-content: center;
     justify-content: center;
     padding: 1em;
+    border-top: solid 4px black;
+    border-bottom: solid 4px black;
+  }
 
-}
 .country-name-denmark h2{
   font-size: xxx-large;
   font-family: "Montserrat";
@@ -274,6 +282,105 @@ footer{
   margin: 20px;
   background: #FBF2D5;
 }
+#japan-cities{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ), url(/images/japan-city.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color:antiquewhite;
+  text-shadow: 0.04em 0.05em black;
+}
+#japan-landmarks{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ), url(/images/see-japan-seawaves.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color:antiquewhite;
+  text-shadow: 0.04em 0.05em black;
+}
+#japan-people{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  ), url(/images/japan-cherry.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color:antiquewhite;
+  text-shadow: 0.04em 0.05em black;
+}
+#germany-cities{
+  background-image:  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(/images/germanStreet.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
+#germany-landmarks{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(/images/germanyCologne.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
+#germany-people{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(/images/germanyPeople.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
+#china-cities{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  ), url(/images/chinaCity.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
+#china-landmarks{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(/images/chinaLandmark.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
+#china-people{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(/images/chinaPeople.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
 .list-container h2{
   text-align: center;
   background-color: rgba(127,169,155, 0.5);
@@ -304,12 +411,44 @@ body {
   text-align: center;
   background-color: #77b3d7;
 }
-#denmark-cities-list, #denmark-landmarks-list, #denmark-citizens-list {
-  background-color: #ddb356;
-  border: solid 3px #77b3d7;
+#denmark-cities-list{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(/images/denmark-copenhagen.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
+#denmark-landmarks-list{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(/images/denmarkLandmarks.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
+#denmark-citizens-list{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(/images/denmarkPeople.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
 }
 #denmark-footer{
   background-color: #e59446;
+}
+#japan-footer{
+  background-color: #e6ab37;
 }
 .bottomChina-images{
   display:flex;
