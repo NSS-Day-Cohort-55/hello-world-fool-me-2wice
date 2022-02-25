@@ -10,13 +10,11 @@
   padding: 1.6em 2em;
 }
 header{
-  background-color: #7FA99B;
+  background-color: #FBF2D5;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  border: .5em solid;
-  border-color: #394A51;
 }
 .country-name-china {
   background-image: url(/images/chinaBackground.webp);
