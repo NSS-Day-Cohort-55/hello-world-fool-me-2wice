@@ -253,3 +253,12 @@ body {
   width: 50%;
   border: solid 3px #394A51;
 }
+.bottomChina-images{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+}
+.bottomChina-images img{
+  width: 50%;
+  border: solid 3px #394A51;
+}
