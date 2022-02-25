@@ -13,7 +13,7 @@
 }
 
 header{
-  background-color: #FBF2D5;
+  background-image: linear-gradient(to right, #d0d0d0, #9a9a9a,#d0d0d0, #9a9a9a,#d0d0d0, #9a9a9a );
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -134,7 +134,7 @@ footer{
 
 .chinaFlag:hover {
   transform: translate(5%);
-  background-image:url(/images/chinaFlag.png); 
+  background-image:url(/images/waveChina.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -145,7 +145,7 @@ footer{
 
 .denmarkFlag:hover {
   transform: translate(5%);
-  background-image:url(/images/denmarkFlag.png); 
+  background-image:url(/images/waveDenmark.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -156,7 +156,7 @@ footer{
 
 .germanyFlag:hover {
   transform: translate(5%);
-  background-image:url(/images/germanyFlag.png); 
+  background-image:url(/images/waveGermany.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -167,7 +167,7 @@ footer{
 
 .japanFlag:hover {
   transform: translate(5%);
-  background-image:url(/images/japanFlag.jpg); 
+  background-image:url(/images/waveJapan.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -178,7 +178,7 @@ footer{
 
 .spainFlag:hover {
   transform: translate(5%);
-  background-image:url(/images/spainFlag.png); 
+  background-image:url(/images/waveSpain.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -188,7 +188,7 @@ footer{
 }
 
 #currentChina{
-  background-image:url(/images/chinaFlag.png); 
+  background-image:url(/images/waveChina.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -198,7 +198,7 @@ footer{
 }
 
 #currentDenmark{
-  background-image:url(/images/denmarkFlag.png); 
+  background-image:url(/images/waveDenmark.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -208,7 +208,7 @@ footer{
 }
 
 #currentGermany{
-  background-image:url(/images/germanyFlag.png); 
+  background-image:url(/images/waveGermany.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -218,7 +218,7 @@ footer{
 }
 
 #currentJapan{
-  background-image:url(/images/japanFlag.jpg); 
+  background-image:url(/images/waveJapan.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -228,7 +228,7 @@ footer{
 }
 
 #currentSpain{
-  background-image:url(/images/spainFlag.png); 
+  background-image:url(/images/waveSpain.gif); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
