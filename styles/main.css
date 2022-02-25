@@ -270,6 +270,14 @@ footer{
   background-size: cover;  
 
 }
+#germany-cities{
+  background-image: url(/images/hamburg-hamburg-city.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  color: white;
+  text-shadow: 0.04em 0.05em black;
+}
 .list-container h2{
   text-align: center;
   background-color: rgba(127,169,155, 0.5);
