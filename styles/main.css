@@ -459,6 +459,9 @@ body {
   width: 50%;
   border: solid 3px #394A51;
 }
+#china-list-container {
+  background-color:#507d87;
+}
 footer{
   display:flex;
   flex-direction: column;
